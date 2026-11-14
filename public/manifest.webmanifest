@@ -1,7 +1,7 @@
 {
   "name": "MTS Sistemas e Ingeniería Industrial",
   "short_name": "MTS Ingeniería",
-  "description": "Sitio corporativo oficial de MTS Sistemas e Ingeniería Industrial. Maquinado CNC, mantenimiento en planta y automatización industrial.",
+  "description": "Sitio corporativo oficial de MTS Sistemas e Ingeniería Industrial. Proyectos industriales, mantenimiento en planta y automatización.",
   "start_url": "/",
   "scope": "/",
   "display": "browser",

@@ -2,7 +2,7 @@ import React from 'react';
 import {
   ArrowUpRight,
   FileText,
-  Layers,
+  FolderKanban,
   Lock,
   ShieldCheck,
   Wallet,
@@ -26,13 +26,13 @@ export function PlatformSection() {
             </h2>
 
             <p className="text-xs sm:text-sm text-zinc-300 leading-relaxed">
-              A diferencia de un taller convencional, nuestra gestión técnica se apoya en{' '}
+              Nuestra gestión técnica se apoya en{' '}
               <strong className="text-white font-semibold">MTS Plataforma</strong> (
               <code className="text-xs font-mono text-amber-300 bg-zinc-900 px-1.5 py-0.5 rounded border border-zinc-800">
                 administracion.ingenieriamts.com
               </code>
-              ), donde estructuramos cotizaciones, partidas unitarias, clientes, plantas y gastos
-              reales de obra con seguridad empresarial.
+              ), donde estructuramos cotizaciones, proyectos, clientes, plantas y gastos reales de
+              obra con seguridad empresarial.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
@@ -79,7 +79,7 @@ export function PlatformSection() {
                       Pulso Comercial y Control de Obra
                     </h3>
                     <p className="text-[11px] font-mono text-zinc-400">
-                      Flujo de presupuestos, partidas y erogaciones
+                      Flujo de presupuestos, proyectos y erogaciones
                     </p>
                   </div>
                 </div>
@@ -104,7 +104,7 @@ export function PlatformSection() {
                     <span className="w-1.5 h-1.5 rounded-full bg-zinc-300" />
                     ENVIADA
                   </span>
-                  <p className="text-xs text-zinc-400">PDF oficial emitido</p>
+                  <p className="text-xs text-zinc-400">Propuesta enviada</p>
                 </div>
 
                 <div className="p-3 rounded-xl bg-zinc-950 border border-zinc-800/90 space-y-1.5">
@@ -138,12 +138,12 @@ export function PlatformSection() {
                       </span>
                     </div>
                     <p className="text-xs text-zinc-300 truncate">
-                      Maquinado y mantenimiento a flecha de transmisión &middot; Acero 4140
+                      Mantenimiento mayor e instrumentación en línea de proceso industrial
                     </p>
                   </div>
                   <div className="flex items-center gap-1.5 text-[11px] font-mono text-zinc-400 shrink-0">
-                    <Layers className="w-3.5 h-3.5 text-amber-400" />
-                    <span>Partidas</span>
+                    <FolderKanban className="w-3.5 h-3.5 text-amber-400" />
+                    <span>Proyectos</span>
                   </div>
                 </div>
 
@@ -159,7 +159,7 @@ export function PlatformSection() {
                       </span>
                     </div>
                     <p className="text-xs text-zinc-300 truncate">
-                      Adecuación de tablero de control y protecciones en línea de proceso
+                      Adecuación de tablero de control y protecciones eléctricas en planta
                     </p>
                   </div>
                   <div className="flex items-center gap-1.5 text-[11px] font-mono text-zinc-400 shrink-0">
@@ -171,7 +171,7 @@ export function PlatformSection() {
 
               <div className="flex flex-wrap items-center justify-between gap-2 pt-1 text-[11px] font-mono text-zinc-500">
                 <span>Infraestructura TLS 1.3 &middot; PWA Instalable</span>
-                <span className="text-zinc-300">api.ingenieriamts.com</span>
+                <span className="text-zinc-300">administracion.ingenieriamts.com</span>
               </div>
             </div>
           </div>

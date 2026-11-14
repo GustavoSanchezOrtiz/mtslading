@@ -2,7 +2,7 @@ export const MTS_BRAND = {
   shortName: 'MTS',
   legalName: 'MTS Ingeniería Industrial',
   fullName: 'MTS Sistemas e Ingeniería Industrial',
-  tagline: 'Sistemas e Ingeniería Industrial de Precisión',
+  tagline: 'Sistemas y Proyectos de Ingeniería Industrial',
   location: 'Durango, Dgo., México',
   email: 'contacto@mtssystems.mx',
   adminPortalUrl: 'https://administracion.ingenieriamts.com',
@@ -20,26 +20,26 @@ export const NAV_LINKS = [
 ];
 
 export const HERO_PILLARS = [
-  { code: 'CNC · 4140', label: 'Maquinado de precisión y rectificado' },
-  { code: 'PLANTA', label: 'Mantenimiento mayor en sitio' },
+  { code: 'PROYECTOS', label: 'Ingeniería y ejecución integral en planta' },
+  { code: 'PLANTA', label: 'Mantenimiento industrial y paros técnicos' },
   { code: 'CONTROL', label: 'Automatización y tableros industriales' },
 ];
 
 export const CAPABILITIES = [
   {
     code: '01',
-    tag: 'Manufactura',
-    title: 'Maquinado CNC y rectificado de precisión',
+    tag: 'Proyectos',
+    title: 'Gestión y ejecución de proyectos industriales',
     description:
-      'Fabricación, reconstrucción y rectificado de flechas de transmisión, bujes, ejes y refacciones críticas en aceros aleados como 4140 con ajuste dimensional controlado.',
-    specs: ['Tolerancias ajustadas', 'Tratamientos térmicos', 'Refaccionamiento especial'],
+      'Planeación técnica, ingeniería en campo, coordinación operativa y desarrollo integral de proyectos adaptados a líneas y áreas productivas.',
+    specs: ['Levantamiento técnico', 'Ejecución en campo', 'Seguimiento por proyecto'],
   },
   {
     code: '02',
     tag: 'Operación en sitio',
     title: 'Mantenimiento industrial y paros de planta',
     description:
-      'Ejecución de mantenimiento preventivo, correctivo y mayor directamente en naves industriales, líneas de proceso y áreas de fundición o manufactura.',
+      'Ejecución de mantenimiento preventivo, correctivo y mayor directamente en naves industriales, líneas de proceso y áreas operativas.',
     specs: ['Cuadrillas técnicas', 'Atención por planta', 'Cero improvisación'],
   },
   {
@@ -52,26 +52,10 @@ export const CAPABILITIES = [
   },
   {
     code: '04',
-    tag: 'Estructuras',
-    title: 'Pailería técnica y montaje mecánico',
-    description:
-      'Diseño, habilitado e instalación de guardas de seguridad, bastidores, estructuras de soporte y adecuaciones metálicas adaptadas a cada nave.',
-    specs: ['Fabricación a medida', 'Alineación y montaje', 'Soldadura especializada'],
-  },
-  {
-    code: '05',
-    tag: 'Planeación',
-    title: 'Ingeniería de costos y desglose por partidas',
-    description:
-      'Estructuración técnica previa con catálogo de partidas, cantidades y precios unitarios claros antes de comprometer recursos en planta.',
-    specs: ['Partidas transparentes', 'Folios trazables', 'Alcance documentado'],
-  },
-  {
-    code: '06',
     tag: 'Abastecimiento',
     title: 'Suministro técnico y control de materiales',
     description:
-      'Gestión de insumos, componentes mecánicos y refacciones vinculadas directamente a cada proyecto autorizado para asegurar calidad de entrega.',
+      'Gestión de insumos, componentes y refacciones vinculadas directamente a cada proyecto autorizado para asegurar calidad de entrega.',
     specs: ['Material certificado', 'Trazabilidad por folio', 'Control de erogaciones'],
   },
 ];
@@ -81,15 +65,15 @@ export const METHODOLOGY_STEPS = [
     step: '01',
     title: 'Levantamiento técnico en planta',
     summary:
-      'Inspección en nave o línea de producción para validar dimensiones, condiciones de operación, restricciones de paro y alcance real.',
+      'Inspección en nave o línea de producción para validar condiciones de operación, restricciones de paro y alcance real del proyecto.',
     meta: 'Registro por cliente y planta',
   },
   {
     step: '02',
-    title: 'Presupuesto formal por partidas',
+    title: 'Presupuesto formal por proyecto',
     summary:
-      'Elaboración de cotización detallada con conceptos, materiales y precios unitarios en formato oficial con membrete corporativo MTS.',
-    meta: 'Documento PDF con folio único',
+      'Elaboración de cotización detallada con alcances, materiales y costos claros antes de comprometer recursos en planta.',
+    meta: 'Propuesta formal con folio único',
   },
   {
     step: '03',
@@ -113,8 +97,8 @@ export const PLATFORM_MODULES = [
     detail: 'Ciclo de vida completo: Borrador, Enviada, Aceptada y Pagada.',
   },
   {
-    key: 'Partidas',
-    detail: 'Desglose unitario de conceptos técnicos, cantidades y materiales.',
+    key: 'Proyectos',
+    detail: 'Seguimiento detallado de alcances, conceptos técnicos y ejecución por proyecto.',
   },
   {
     key: 'Clientes y Plantas',
@@ -130,17 +114,17 @@ export const SECTORS = [
   {
     code: 'SEC-01',
     name: 'Minería y Metalurgia',
-    detail: 'Componentes de alta exigencia, flechas, transmisión de potencia y mantenimiento en fundición.',
+    detail: 'Mantenimiento mayor en áreas de proceso, sistemas de control e instrumentación industrial.',
   },
   {
     code: 'SEC-02',
     name: 'Manufactura y Maquinaria',
-    detail: 'Maquinado CNC de piezas especiales, dispositivos de sujeción y rehabilitación de equipos.',
+    detail: 'Ejecución de proyectos industriales, automatización de líneas y rehabilitación de equipos.',
   },
   {
     code: 'SEC-03',
     name: 'Parques y Naves Industriales',
-    detail: 'Instalaciones electromecánicas, montaje estructural, adecuaciones y mantenimiento preventivo.',
+    detail: 'Instalaciones electromecánicas, adecuaciones operativas y mantenimiento preventivo.',
   },
   {
     code: 'SEC-04',
@@ -150,9 +134,9 @@ export const SECTORS = [
 ];
 
 export const SERVICE_OPTIONS = [
-  'Maquinado CNC y rectificado de precisión',
+  'Ingeniería y ejecución de proyecto industrial',
   'Mantenimiento industrial en planta',
   'Automatización, control y tableros',
-  'Pailería, estructuras y montaje mecánico',
+  'Suministro técnico y refaccionamiento',
   'Proyecto integral / Varios alcances',
 ];

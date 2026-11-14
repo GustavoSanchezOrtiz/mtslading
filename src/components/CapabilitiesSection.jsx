@@ -1,15 +1,13 @@
 import React from 'react';
 import {
-  Cog,
+  FolderKanban,
   Factory,
   Cpu,
-  Hammer,
-  Calculator,
   PackageCheck,
 } from 'lucide-react';
 import { CAPABILITIES } from '../data/mtsContent';
 
-const ICONS = [Cog, Factory, Cpu, Hammer, Calculator, PackageCheck];
+const ICONS = [FolderKanban, Factory, Cpu, PackageCheck];
 
 export function CapabilitiesSection() {
   return (
@@ -27,13 +25,13 @@ export function CapabilitiesSection() {
             </h2>
           </div>
           <p className="text-xs sm:text-sm text-zinc-400 max-w-md leading-relaxed">
-            Integramos fabricación de precisión, intervención mecánica y control electrónico bajo una
-            misma estructura operativa.
+            Integramos gestión de proyectos, intervención operativa en sitio y control electrónico
+            bajo una misma estructura.
           </p>
         </div>
 
-        {/* Grid sobrio de capacidades */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+        {/* Grid sobrio 2x2 de capacidades */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
           {CAPABILITIES.map((cap, idx) => {
             const Icon = ICONS[idx % ICONS.length];
             return (

@@ -7,7 +7,7 @@ Sitio corporativo público de **MTS Ingeniería Industrial** (`ingenieriamts.com
 - **Vite + React 19**
 - **Tailwind CSS v4** (`@tailwindcss/postcss`)
 - **Lucide React**
-- Fuentes corporativas locales (`Inter` y `Poppins`) y activos vectoriales oficiales MTS (`logo.svg`, `logoNegro.svg`, `DecoradorSuperIzquierdo.svg`).
+- Fuentes corporativas locales (`Inter` y `Poppins`) y logotipo vectorial oficial MTS (`logo.svg`).
 
 ## Comandos
 
