@@ -1,0 +1,33 @@
+{
+  "name": "MTS Sistemas e Ingeniería Industrial",
+  "short_name": "MTS Ingeniería",
+  "description": "Sitio corporativo oficial de MTS Sistemas e Ingeniería Industrial. Maquinado CNC, mantenimiento en planta y automatización industrial.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "browser",
+  "background_color": "#09090b",
+  "theme_color": "#09090b",
+  "orientation": "portrait-primary",
+  "lang": "es",
+  "categories": ["business", "engineering"],
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
